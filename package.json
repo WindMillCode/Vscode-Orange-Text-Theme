@@ -16,6 +16,21 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "orange",
+    "amber",
+    "dark theme",
+    "color theme",
+    "visual studio code",
+    "text theme",
+    "eyestrain",
+    "better visibility",
+    "coding theme",
+    "developer tools",
+    "custom themes",
+    "Windmillcode"
+  ],
   "icon": "assets/icons/icon.png",
   "license": "MIT",
   "contributes": {
