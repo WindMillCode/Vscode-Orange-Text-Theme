@@ -1,0 +1,21 @@
+{
+  "name": "orange-theme",
+  "displayName": "Orange Text Theme",
+  "description": "Gives orange/amber color to vscode text elements which is better on the eyes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Orange Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Orange Theme-color-theme.json"
+      }
+    ]
+  }
+}
