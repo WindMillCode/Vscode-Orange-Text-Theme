@@ -2,13 +2,22 @@
   "name": "orange-theme",
   "displayName": "Orange Text Theme",
   "description": "Gives orange/amber color to vscode text elements which is better on the eyes",
-  "version": "0.0.1",
+  "author": {
+    "name": "Windmillcode"
+  },
+  "publisher": "windmillcode-publisher-0",
+  "version": "1.95.3000",
   "engines": {
     "vscode": "^1.95.0"
+  },
+  "repository": {
+    "url": "https://github.com/WindMillCode/Vscode-Orange-Text-Theme"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "assets/icons/icon.png",
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
