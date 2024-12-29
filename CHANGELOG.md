@@ -18,3 +18,6 @@ on every vscode update a new version will be release
 
 - Additional updates
 
+## [1.96.2001]
+- ensured that the amount of blue colors turned to orange is 100%
+- renamed the theme to "Orange Text Theme"

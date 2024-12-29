@@ -7,3 +7,6 @@ The set of amber/orange values in the provided JSON is:
 - `#d47800`
 - `#bb8009`
 - `#dfa500`
+
+
+use #300000 if you dont like #361800
