@@ -21,3 +21,7 @@ on every vscode update a new version will be release
 ## [1.96.2001]
 - ensured that the amount of blue colors turned to orange is 100%
 - renamed the theme to "Orange Text Theme"
+
+## [1.96.2002]
+- darkened editor.selectionBackground
+- edited button.hoverBackground for the keyrunner vscode extension

@@ -19,7 +19,7 @@
     "debugIcon.stepOutForeground": "#cc7a00",
     "debugIcon.stepOverForeground": "#cc7a00",
     "debugView.valueChangedHighlight": "#d69c00",
-    "editor.selectionBackground": "#ffa500",
+    "editor.selectionBackground": "#64320080",
     "editor.snippetFinalTabstopHighlightBorder": "#64320080",
     "editor.snippetTabstopHighlightBackground": "#64320033",
     "editor.wordHighlightStrongBackground": "#9c630040",
@@ -134,7 +134,8 @@
     "button.background": "#361800",
     "button.border": "#ffffff12",
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#361800",
+    // like this for the keyrunner vscode extension
+    "button.hoverBackground": "#c06000",
     "button.secondaryBackground": "#313131",
     "button.secondaryForeground": "#cccccc",
     "button.secondaryHoverBackground": "#3c3c3c",
