@@ -25,3 +25,5 @@ on every vscode update a new version will be release
 ## [1.96.2002]
 - darkened editor.selectionBackground
 - edited button.hoverBackground for the keyrunner vscode extension
+## [1.96.2003]
+- updated package json name
