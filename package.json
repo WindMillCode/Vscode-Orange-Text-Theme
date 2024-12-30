@@ -43,8 +43,8 @@
     ],
     "iconThemes": [
       {
-        "id": "orange-text-theme",
-        "label": "Orange Text Theme",
+        "id": "orange-text-icon-theme",
+        "label": "Orange Text Icon Theme",
         "path": "./icons/vs-seti-icon-theme.json",
         "_watch": true
       }
