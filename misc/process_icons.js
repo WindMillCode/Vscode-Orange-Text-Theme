@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 function hexToRgba(hex) {
   const parsedHex = hex.replace('#', '');
@@ -34,32 +35,27 @@ function convertToOrange(b, g, a = 1) {
   return { r: newR, g: newG, b: 0, a };
 }
 
-function processJsonColors(json) {
-  for (let key in json) {
-    if (typeof json[key] === 'object' && json[key] !== null) {
-      processJsonColors(json[key]);
-    } else if (typeof json[key] === 'string' && json[key].startsWith('#')) {
-      const rgba = hexToRgba(json[key]);
-      if (isBlue(rgba.b, rgba.r, rgba.g)) {
-        const newColor = convertToOrange(rgba.b, rgba.g, rgba.a);
-        json[key] = rgbaToHex(newColor);
-      }
+function processSvgContent(svgContent) {
+  return svgContent.replace(/#[0-9A-Fa-f]{3,8}/g, (match) => {
+    const rgba = hexToRgba(match);
+    if (isBlue(rgba.b, rgba.r, rgba.g)) {
+      const newColor = convertToOrange(rgba.b, rgba.g, rgba.a);
+      return rgbaToHex(newColor);
     }
-  }
+    return match;
+  });
 }
 
-function processFile(inputFile, outputFile) {
-  try {
-    const data = fs.readFileSync(inputFile, 'utf8');
-    const json = JSON.parse(data);
-    processJsonColors(json);
-    fs.writeFileSync(outputFile, JSON.stringify(json, null, 2), 'utf8');
-    console.log(`Processed JSON saved to ${outputFile}`);
-  } catch (err) {
-    console.error('Error processing the file:', err.message);
-  }
+function processSvgs(dirPath) {
+  fs.readdirSync(dirPath).forEach(file => {
+    if (path.extname(file).toLowerCase() === '.svg') {
+      const svgPath = path.join(dirPath, file);
+      const svgContent = fs.readFileSync(svgPath, 'utf8');
+      const updatedContent = processSvgContent(svgContent);
+      fs.writeFileSync(svgPath, updatedContent, 'utf8');
+      console.log(`Processed ${file}`);
+    }
+  });
 }
 
-const inputFile = './vs-seti-icon-theme.json';
-const outputFile = './output.json';
-processFile(inputFile, outputFile);
+processSvgs('./vscode-icons/icons');

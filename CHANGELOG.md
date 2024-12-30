@@ -27,3 +27,7 @@ on every vscode update a new version will be release
 - edited button.hoverBackground for the keyrunner vscode extension
 ## [1.96.2003]
 - updated package json name
+
+
+## [1.96.2010]
+- added support for file icons

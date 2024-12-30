@@ -36,9 +36,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "Orange Theme",
+        "label": "Orange Text Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Orange Theme-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "orange-text-theme",
+        "label": "Orange Text Theme",
+        "path": "./icons/vs-seti-icon-theme.json",
+        "_watch": true
       }
     ]
   }
