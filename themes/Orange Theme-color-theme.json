@@ -31,7 +31,6 @@
     "editorCommentsWidget.unresolvedBorder": "#f19000",
     "editorGroup.dropBackground": "#cb77002e",
     "editorGutter.modifiedBackground": "#d39000",
-    "editorHoverWidget.highlightForeground": "#bf6600",
     "editorInfo.foreground": "#ff8500",
     "editorLightBulbAutoFix.foreground": "#cc7a00",
     "editorLineNumber.activeForeground": "#6f2100",
@@ -107,8 +106,6 @@
     "textLink.activeForeground": "#b16a00",
     "textLink.foreground": "#b16a00",
     "welcomePage.progress.foreground": "#b16a00",
-
-
     "editorCommentsWidget.unresolvedBorder": "#FFCC80",
     "editorBracketHighlight.foreground1":"#ffd700",
     "commentsView.unresolvedIcon":"#FF9800",
@@ -164,13 +161,13 @@
     "editorGutter.addedBackground": "#2ea043",
     "editorGutter.deletedBackground": "#f85149",
     "editorGutter.modifiedBackground": "#361800",
-    "editorHoverWidget.highlightForeground": "#361800",
+    "editorHoverWidget.highlightForeground": "#FF9800",
     "editorIndentGuide.activeBackground1": "#707070",
     "editorIndentGuide.background1": "#404040",
     "editorLineNumber.activeForeground": "#cccccc",
     "editorLineNumber.foreground": "#6e7681",
     "editorLightBulbAutoFix.foreground" : "#FF9800",
-    "editorLink.activeForeground": "#361800",
+    "editorLink.activeForeground": "#FF9800",
     "editorOverviewRuler.border": "#090400",
     "editorInfo.foreground": "#361800",
     "editorWidget.background": "#202020",
@@ -693,7 +690,7 @@
         "storage.type.primitive.groovy"
       ],
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#C98B4E"
       }
     },
     {
@@ -706,7 +703,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#C98B4E"
       }
     },
     {

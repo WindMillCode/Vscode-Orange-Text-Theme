@@ -38,3 +38,6 @@ on every vscode update a new version will be release
 
 ## [1.96.4001]
 - selection.background was changed to dark orange color
+
+## [1.96.4002]
+- fixed editorLink.activeForeground and editorHoverWidget.highlightForeground
