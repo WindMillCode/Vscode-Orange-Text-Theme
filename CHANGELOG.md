@@ -31,3 +31,7 @@ on every vscode update a new version will be release
 
 ## [1.96.2010]
 - added support for file icons
+
+
+## [1.96.4000]
+- editor.findMatchHighlightBackground was changed to dark color
