@@ -35,3 +35,6 @@ on every vscode update a new version will be release
 
 ## [1.96.4000]
 - editor.findMatchHighlightBackground was changed to dark color
+
+## [1.96.4001]
+- selection.background was changed to dark orange color

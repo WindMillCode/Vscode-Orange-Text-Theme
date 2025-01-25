@@ -9,6 +9,7 @@
     "button.background": "#cc7a00",
     "button.hoverBackground": "#a36200",
     "charts.blue": "#ff8500",
+    "selection.background":"#64320080",
     "editor.findMatchHighlightBackground": "#64320080",
     "chat.slashCommandForeground": "#a26c00",
     "commentsView.unresolvedIcon": "#f19000",
