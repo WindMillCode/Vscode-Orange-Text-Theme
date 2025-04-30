@@ -41,3 +41,6 @@ on every vscode update a new version will be release
 
 ## [1.96.4002]
 - fixed editorLink.activeForeground and editorHoverWidget.highlightForeground
+
+## [1.99.3000]
+[FIX] progress bar is more visible

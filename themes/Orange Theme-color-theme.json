@@ -78,7 +78,7 @@
     "peekViewResult.selectionBackground": "#ff990033",
     "pickerGroup.foreground": "#bf6600",
     "problemsInfoIcon.foreground": "#ff8500",
-    "progressBar.background": "#c07000",
+
     "quickInputList.focusBackground": "#c06000",
     "sash.hoverBorder": "#f19000",
     "settings.focusedRowBorder": "#f19000",
@@ -206,7 +206,7 @@
     "peekViewResult.matchHighlightBackground": "#bb800966",
     "pickerGroup.border": "#3c3c3c",
     "ports.iconRunningProcessForeground": "#369432",
-    "progressBar.background": "#361800",
+    "progressBar.background": "#f19000",
     "quickInput.background": "#222222",
     "quickInput.foreground": "#cccccc",
     "settings.dropdownBackground": "#313131",
